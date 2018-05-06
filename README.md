@@ -1,9 +1,9 @@
 # SkinRecognition
 ## Introduction
 Three sets of images have been provided for the Skin Recognition project:
-# Training images
-# Skin mask of the training images
-# Test set
+1. Training images
+1. Skin mask of the training images
+1. Test set
 Each training image and its mask have the same size. For each pixel in the original image there is a corresponding pixel in the skin mask with. The corresponding pixel in the mask is not skin the pixel has the RGB (1, 1, 1); otherwise the skin pixel is present.
 
 ## Training
@@ -60,3 +60,5 @@ The parameters for this method are:
   * default: None. Does not generate output results.
 * output_mask_path: The path to store the masks.
   * default: None. Does not generate the predicted mask image file. Instead shows the results on screen using the matplotlib library.
+
+![Example](example.PNG)
